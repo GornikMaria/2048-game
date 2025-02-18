@@ -1,0 +1,12 @@
+services:
+  game:
+    image: 2048game
+    container_name: container1
+    ports:
+      - "8080:8080"
+
+  game2:
+    image: 2048game
+    container_name: container2
+    ports:
+      - "8081:8080"
